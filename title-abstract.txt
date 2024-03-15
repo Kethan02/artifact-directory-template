@@ -1,5 +1,5 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+Assessing Probability of Consumer Default based on Historical Banking Transactions
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+Throughout this project, our team is focusing on analyzing the process behind classifying credit card transactions and estimating consumer income to later determine a final credit score. This credit score would determine if a specific consumer is likely to default or not. Given datasets of inflows and outflows with categorical transactions, we focused on establishing a broad set of features to assess how risky a consumer is. For example, given categories amongst a user's outflow transactions, we extrapolated their average spending in non-essential categories to understand their spending habits and build towards a more holistic credit score. With the help of our industry partner Prism Data, our team’s goal is to maximize our ROC-AUC on the amount of people likely to default and not. To achieve a high AUC-ROC, we utilized a robust feature building process that looked into the patterns of how consumers spend, save, and make money. For example, our income feature stems from summed recurring payments that came in within respective quarterly, monthly, or weekly segments. Overall, stacking features like these into our models helps us determine how good of an understanding we have on determining the difference between someone who doesn't default compared to those who do in order to come up with a final credit scoring for consumers.
